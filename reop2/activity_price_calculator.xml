@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="물품의 가격은?"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="숫자로 입력"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="물품의 개수는?"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="숫자로 입력"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="총 금액 계산하기"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="초기화"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="돌아가기"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
