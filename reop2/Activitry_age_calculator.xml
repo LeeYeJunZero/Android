@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="태어난 년도를 입력하세요"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/yearEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="# 년도 입력"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculateAgeButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="나이 계산"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="나이를 입력하세요"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="# 나이 입력"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculateBirthYearButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="태어난 해 계산"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="초기화"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="돌아가기"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
