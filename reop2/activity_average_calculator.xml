@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="점수를 입력하세요"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="국어"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+    <EditText
+        android:id="@+id/koreanScoreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="# 국어 점수 입력"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="영어"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+    <EditText
+        android:id="@+id/englishScoreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="# 영어 점수 입력"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수학"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+    <EditText
+        android:id="@+id/mathScoreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="# 수학 점수 입력"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="점수 계산"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/totalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="총점:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/averageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="평균:"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="초기화"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="돌아가기"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
