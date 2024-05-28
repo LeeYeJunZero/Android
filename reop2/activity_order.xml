@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메뉴 주문하기"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="피자(15,000원)"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+    <EditText
+        android:id="@+id/pizzaQuantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="# 개수 입력"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스파게티(13,000원)"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+    <EditText
+        android:id="@+id/spaghettiQuantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="# 개수 입력"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="샐러드(9,000원)"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+    <EditText
+        android:id="@+id/saladQuantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="# 개수 입력"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="금액 계산하기"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="총 금액:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/orderCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주문 개수:"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="초기화"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="돌아가기"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
